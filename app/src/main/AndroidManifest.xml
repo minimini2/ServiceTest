@@ -20,6 +20,9 @@
             android:enabled="true"
             android:exported="true"></service>
 
+        <service android:name=".MyIntentService"
+            tools:ignore="Instantiatable" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
